@@ -1,0 +1,19 @@
+.report {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.report > li {
+  flex-grow: 1;
+  width: 130px;
+  padding: 2px;
+
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.report p {
+  text-align: center;
+}

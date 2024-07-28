@@ -1,0 +1,41 @@
+.list-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 5px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.list-options li {
+  min-width: 100px;
+}
+
+.list-options button {
+  width: 100%;
+  padding: 10px;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: currentColor;
+
+  background-color: transparent;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+
+.list-options button:hover /*focus state??*/ {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+.reset {
+  flex-grow: 1;
+}

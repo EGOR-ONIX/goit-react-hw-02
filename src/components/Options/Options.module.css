@@ -15,6 +15,7 @@
 }
 
 .list-options button {
+  display: block;
   width: 100%;
   padding: 10px;
 
@@ -30,10 +31,11 @@
   cursor: pointer;
 }
 
-.list-options button:hover /*focus state??*/ {
+/* , .list-options button:focus */
+.list-options button:hover {
   color: #fff;
   background-color: #1a1a1a;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .reset {

@@ -5,23 +5,23 @@ const Options = ({ updateFeedback, totalFeedback }) => {
     <ul className={css["list-options"]}>
       <li>
         <button type="button" onClick={() => updateFeedback("good")}>
-          Good
+          <span className={css["button-text"]}>Good</span>
         </button>
       </li>
       <li>
         <button type="button" onClick={() => updateFeedback("neutral")}>
-          Neutral
+          <span className={css["button-text"]}>Neutral</span>
         </button>
       </li>
       <li>
         <button type="button" onClick={() => updateFeedback("bad")}>
-          Bad
+          <span className={css["button-text"]}>Bad</span>
         </button>
       </li>
       {totalFeedback !== 0 && (
         <li className={css.reset}>
           <button type="button" onClick={() => updateFeedback("reset")}>
-            Reset
+            <span className={css["button-text"]}>Reset</span>
           </button>
         </li>
       )}

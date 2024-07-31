@@ -31,7 +31,6 @@
   cursor: pointer;
 }
 
-/* , .list-options button:focus */
 .list-options button:hover {
   color: #fff;
   background-color: #1a1a1a;
